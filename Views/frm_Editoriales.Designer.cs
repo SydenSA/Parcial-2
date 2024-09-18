@@ -1,0 +1,173 @@
+﻿namespace Editoriales.Views
+{
+    partial class frm_Editoriales
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            lst_Editoriales = new ListBox();
+            label3 = new Label();
+            Lista = new Label();
+            label1 = new Label();
+            txt_Detalle_Editoriales = new TextBox();
+            btn_Salir = new Button();
+            btn_Cancelar = new Button();
+            btn_eliminar = new Button();
+            btn_editar_editoriales = new Button();
+            btn_Guardar_editoriales = new Button();
+            SuspendLayout();
+            // 
+            // lst_Editoriales
+            // 
+            lst_Editoriales.FormattingEnabled = true;
+            lst_Editoriales.ItemHeight = 15;
+            lst_Editoriales.Location = new Point(411, 87);
+            lst_Editoriales.Name = "lst_Editoriales";
+            lst_Editoriales.Size = new Size(209, 184);
+            lst_Editoriales.TabIndex = 19;
+            lst_Editoriales.SelectedIndexChanged += lst_Editoriales_SelectedIndexChanged;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(200, 131);
+            label3.Name = "label3";
+            label3.Size = new Size(108, 15);
+            label3.TabIndex = 18;
+            label3.Text = "Nombre Editoriales";
+            // 
+            // Lista
+            // 
+            Lista.AutoSize = true;
+            Lista.Location = new Point(448, 66);
+            Lista.Name = "Lista";
+            Lista.Size = new Size(88, 15);
+            Lista.TabIndex = 17;
+            Lista.Text = "Lista editoriales";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(248, 66);
+            label1.Name = "label1";
+            label1.Size = new Size(94, 15);
+            label1.TabIndex = 16;
+            label1.Text = "Datos Editoriales";
+            label1.Click += label1_Click;
+            // 
+            // txt_Detalle_Editoriales
+            // 
+            txt_Detalle_Editoriales.Location = new Point(200, 165);
+            txt_Detalle_Editoriales.Name = "txt_Detalle_Editoriales";
+            txt_Detalle_Editoriales.Size = new Size(167, 23);
+            txt_Detalle_Editoriales.TabIndex = 15;
+            txt_Detalle_Editoriales.TextChanged += txt_Detalle_Editoriales_TextChanged;
+            // 
+            // btn_Salir
+            // 
+            btn_Salir.Location = new Point(537, 287);
+            btn_Salir.Name = "btn_Salir";
+            btn_Salir.Size = new Size(83, 98);
+            btn_Salir.TabIndex = 14;
+            btn_Salir.Text = "Regresar/Salir";
+            btn_Salir.UseVisualStyleBackColor = true;
+            btn_Salir.Click += btn_Salir_Click;
+            // 
+            // btn_Cancelar
+            // 
+            btn_Cancelar.Location = new Point(448, 287);
+            btn_Cancelar.Name = "btn_Cancelar";
+            btn_Cancelar.Size = new Size(83, 98);
+            btn_Cancelar.TabIndex = 13;
+            btn_Cancelar.Text = "Cancelar";
+            btn_Cancelar.UseVisualStyleBackColor = true;
+            btn_Cancelar.Click += btn_Cancelar_Click;
+            // 
+            // btn_eliminar
+            // 
+            btn_eliminar.Location = new Point(359, 287);
+            btn_eliminar.Name = "btn_eliminar";
+            btn_eliminar.Size = new Size(83, 98);
+            btn_eliminar.TabIndex = 12;
+            btn_eliminar.Text = "Eliminar";
+            btn_eliminar.UseVisualStyleBackColor = true;
+            btn_eliminar.Click += btn_eliminar_Click;
+            // 
+            // btn_editar_editoriales
+            // 
+            btn_editar_editoriales.Location = new Point(270, 287);
+            btn_editar_editoriales.Name = "btn_editar_editoriales";
+            btn_editar_editoriales.Size = new Size(83, 98);
+            btn_editar_editoriales.TabIndex = 11;
+            btn_editar_editoriales.Text = "Editar";
+            btn_editar_editoriales.UseVisualStyleBackColor = true;
+            // 
+            // btn_Guardar_editoriales
+            // 
+            btn_Guardar_editoriales.Location = new Point(181, 287);
+            btn_Guardar_editoriales.Name = "btn_Guardar_editoriales";
+            btn_Guardar_editoriales.Size = new Size(83, 98);
+            btn_Guardar_editoriales.TabIndex = 10;
+            btn_Guardar_editoriales.Text = "Guardar";
+            btn_Guardar_editoriales.UseVisualStyleBackColor = true;
+            btn_Guardar_editoriales.Click += btn_Guardar_editoriales_Click;
+            // 
+            // frm_Editoriales
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lst_Editoriales);
+            Controls.Add(label3);
+            Controls.Add(Lista);
+            Controls.Add(label1);
+            Controls.Add(txt_Detalle_Editoriales);
+            Controls.Add(btn_Salir);
+            Controls.Add(btn_Cancelar);
+            Controls.Add(btn_eliminar);
+            Controls.Add(btn_editar_editoriales);
+            Controls.Add(btn_Guardar_editoriales);
+            Name = "frm_Editoriales";
+            Text = "frm_Editoriales";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private ListBox lst_Editoriales;
+        private Label label3;
+        private Label Lista;
+        private Label label1;
+        private TextBox txt_Detalle_Editoriales;
+        private Button btn_Salir;
+        private Button btn_Cancelar;
+        private Button btn_eliminar;
+        private Button btn_editar_editoriales;
+        private Button btn_Guardar_editoriales;
+    }
+}
